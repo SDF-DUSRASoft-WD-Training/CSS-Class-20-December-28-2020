@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+body:hover{
+    background-color: rgb(194, 0, 0);
+}
+
+
+@media (max-width: 1000px){
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+}
+
+@media (min-width: 1200px){
+    body{
+        background-color: rgb(138, 0, 252);
+    }
+}
+
+@media (max-width: 769px){
+    body{
+        background-color: rgb(255, 80, 80);
+    }
+}
+
+@media (max-width: 376px){
+    body{
+        background-color: coral;
+    }
+}
